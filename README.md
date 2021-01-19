@@ -12,6 +12,7 @@ Employee Attrition can be defined as the natural process in which the employees 
 1. [Introduction](#introduction)
 2. [Literature Survey](#literature-survey)
 3. [Dataset](#dataset)
+   * [Exploratory Data Analysis](#exploratory-data-analysis)
    * [Data Preparation and Preprocessing](#data-preparation-and-preprocessing)
 4. [Methodology](#methodology)
    * [Classification Techniques](#classification-techniques)
@@ -38,6 +39,62 @@ Correlation Matrix   |
 :-------------------------:|
 ![](Plots/Confusion-Matrix.png) |
 
+#### Exploratory Data Analysis
+
+Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition.png) |
+
+As seen from above plot, there is a severe class imbalance in the attrition class and the value of 'No' or 0 far outweigh the 'Yes' or 1.  
+
+Age vs Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition_age.png) |
+
+Younger people tend have to higher attrition rates.  
+
+Department vs Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition_department.png) |
+
+The Sales Department has the highest attrition with human resources being slightly less than it.  
+
+
+Job Role vs Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition_job_role.png) |
+
+The job role with the least attrition is of a ResearchDirector and the one with maximum attrition is of a Sales Representative.  
+
+Gender vs Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition_gender.png) |
+
+The Male employees tend to have a higher attrition rate as compared to females.
+
+Marital Status vs Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition_marital_status.png) |
+
+Single employees tend to have higher attrition. 
+
+Overtime vs Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition_overtime.png) |
+
+People who overtime have a higher chances of leaving the organization.     
+
+Holistic Satisfaction vs Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition_holistic.png) |
+
+Employees with less Holistic Satisfaction tend to leave the organization.   
+
+Monthly Income vs Attrition Rates   |  
+:-------------------------:|
+![](Plots/attrition_income.png) |
+
+People with lower monthly income have a higher attrition rate.
 
 ### References
 1. [Rahul Yedida, Rahul Reddy, Rakshit Vahi, Rahul Jana, Abhilash GV, Deepti Kulkarni. "Employee Attrition Prediction". 02 November 2018.](https://arxiv.org/abs/1806.10480)
